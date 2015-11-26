@@ -4,6 +4,7 @@ Database with test data
 Purposes:
 * Show how to use a database project
 * Set up scenarios for testing the Data Comparison app https://github.com/OBUAdam/DataComparison
+    * Think of each table as a unit test to verify that the results are correct for each scenario.
 
 Steps:
 * Create Database1 and Database2 on the same server.
