@@ -70,5 +70,7 @@
     <Build Include="dbo\Tables\MissingFromDatabase2.sql" />
     <Build Include="dbo\Tables\NoDifference.sql" />
     <Build Include="dbo\Tables\ValueDifferent.sql" />
+    <None Include="SetUpDatabase1.sql" />
+    <None Include="SetUpDatabase2.sql" />
   </ItemGroup>
 </Project>
