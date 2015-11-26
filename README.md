@@ -1,13 +1,20 @@
 # TestingDatabase
 Database with test data
 
-The current purpose of this database project is to set up scenarios for testing the Data Comparison app.
+Purposes:
+* Show how to use a database project
+* Set up scenarios for testing the Data Comparison app https://github.com/OBUAdam/DataComparison
 
 Steps:
-* Publish the database project to two databases on the same server, called Database1 and Database2.
+* Create Database1 and Database2 on the same server.
+* Publish the database project to Database1 and to Database2.
+    * To publish a database project:
     * Right click the database project in Visual Studio, and select Schema Compare.
-    * Click the Select Target drop-down list, and choose a database.
-    * To create a new connection, enter the server name and the database name.
+    * Click the Select Target drop-down list, and select the "Select Target..." option.
+    * Select a database from the "Choose a database" drop-down list.
+        * To add a database to the list:
+        * Click the "New Connection" button.
+        * Enter the server name and the database name.
     * Click the Compare button and wait for the comparison to finish.
     * Click the Update button to update the selected database.
 * Execute the SetUpDatabase1 and SetUpDatabase2 scripts.
