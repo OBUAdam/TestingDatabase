@@ -4,7 +4,6 @@
     [DateCreated]  DATETIME      NOT NULL,
     [UserCreated]  VARCHAR (100) NOT NULL,
     [DateModified] DATETIME      NOT NULL,
-    [UserModified] VARCHAR (100) NOT NULL,
-    PRIMARY KEY CLUSTERED ([ID] ASC)
+    [UserModified] VARCHAR (100) NOT NULL
 );
 
